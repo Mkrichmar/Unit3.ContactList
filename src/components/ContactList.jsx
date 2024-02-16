@@ -11,9 +11,12 @@ const dummyContacts = [
 
 function ContactList() {
     const [contacts, setContacts] = useState(dummyContacts)
-    // const useEffect(() => {
+    useEffect(() => {
+        async function fetchContacts() {
+            
+        }
         
-    // }, []);
+    }, []);
 
     console.log("Contact:", contacts);
     return (
