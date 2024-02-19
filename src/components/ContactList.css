@@ -1,0 +1,25 @@
+table {
+    background-color:aliceblue;
+    color: black;
+}
+
+
+tr:nth-child(even) {
+    background-color:lightblue
+}
+
+tr:nth-child(n+2):hover {
+    background-color: royalblue;
+    cursor: pointer;
+}
+
+td {
+    text-align: left;
+}
+
+tr:nth-child(-n+1) {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: lightgray;
+}

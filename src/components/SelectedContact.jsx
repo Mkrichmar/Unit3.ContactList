@@ -37,6 +37,7 @@ function SelectedContact({selectedContactId, setSelectedContactId}) {
         <li>catchphrase: {contact.company.catchPhrase}</li>
         <li>BS: {contact.company.bs}</li>
       </ul> 
+      <button onClick={() => setSelectedContactId(null)}>Return</button>
       </div>
       }
     </>

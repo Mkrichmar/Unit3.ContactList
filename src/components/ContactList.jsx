@@ -2,6 +2,7 @@ import { useState } from 'react'
 import React from "react";
 import ContactRow from './ContactRow';
 import { useEffect } from 'react';
+import './ContactList.css'
 
 const dummyContacts = [
     { id: 1, name: "R2-D2", phone: "222-222-2222", email: "r2d2@droids.com" },
