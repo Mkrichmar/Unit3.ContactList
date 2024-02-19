@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./SelectedContact.css"
 
 function SelectedContact({selectedContactId, setSelectedContactId}) {
   const [contact, setContact] = useState(null)
@@ -22,7 +23,7 @@ function SelectedContact({selectedContactId, setSelectedContactId}) {
     { contact &&
       <div> 
       <h1>{contact.name} </h1>
-      <h3>username: {contact.username} </h3>
+      <h3>Username: {contact.username} </h3>
       <h3>Contact Email: {contact.email} </h3>
       <h3>Phone: {contact.phone}</h3> 
       <h3>Website: {contact.website}</h3>
